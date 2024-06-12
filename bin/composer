@@ -1,0 +1,4 @@
+#!/bin/bash
+BASEDIR="$(dirname $(realpath $0))/.."
+# Tag 2.0.8 is the latest version supporting PHP 7.4
+docker run --rm -v "$BASEDIR":/app -w /app -u $(id -u):$(id -g) composer:2.0.8 composer $@

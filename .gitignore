@@ -1,0 +1,17 @@
+auth.json*
+vendor
+php-scoper/*
+!/php-scoper/composer.*
+!/php-scoper/README.md
+includes
+.vscode/*
+
+# Mac OSX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini

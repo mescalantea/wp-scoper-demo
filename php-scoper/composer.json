@@ -1,0 +1,24 @@
+{
+    "require": {
+        "humbug/php-scoper": "^0.17.5",
+        "sniccowp/php-scoper-wordpress-excludes": "*",
+        "snicco/php-scoper-woocommerce-excludes": "dev-master"
+
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/snicco/php-scoper-woocommerce-excludes"
+        }
+    ],
+    "config": {
+      "platform": {
+        "php": "7.4"
+      },
+      "allow-plugins": {
+        "composer/package-versions-deprecated": true
+      }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
